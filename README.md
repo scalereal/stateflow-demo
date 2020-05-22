@@ -2,11 +2,10 @@
 
 ## What is `StateFlow`?
 - It is a *flow* which emits updates to its collectors.
-- Value can be observed by collecting values from this flow.
-
+- Value can be observed by collecting values from the flow.
 
 ## Implementation
-### ViewModel:
+### `ViewModel.kt`:
 
 ```kt
 class MainViewModel : ViewModel() {
@@ -24,7 +23,7 @@ class MainViewModel : ViewModel() {
 }
 ```
 
-### MainActivity:
+### `MainActivity.kt`:
 ```kt
 class MainActivity : AppCompatActivity() {
 
