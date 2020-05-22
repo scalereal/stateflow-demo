@@ -63,3 +63,6 @@ class MainActivity : AppCompatActivity() {
 }
 
 ```
+
+## Reference
+- [StateFlow](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-state-flow/index.html)
